@@ -11,6 +11,16 @@ package com.mycompany.testingrepository;
 public class Testingrepository {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+     
+        int numero = 7;
+        
+        System.out.print("Soy un numero:" + numero);
+        
+         
+        int numero2 = 10;
+        int total= numero + numero2;
+        
+        System.out.print("El total es:" + total);
+        
     }
 }
